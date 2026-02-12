@@ -1,0 +1,3 @@
+event manager applet DISABLE-RELOAD
+ event cli pattern "reload" sync yes occurs 1
+ action 1 puts "!! RELOAD is not allowed !!"
