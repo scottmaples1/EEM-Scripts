@@ -1,3 +1,4 @@
 event manager applet catchall
  event cli pattern ".*" sync no skip no
  action 1 syslog msg "$_cli_msg"
+
