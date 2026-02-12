@@ -1,0 +1,3 @@
+event manager applet DISABLE-WRITE-ERASE
+  event cli pattern "write erase" sync yes occurs 1
+  action 1 puts "!! WRITE ERASE is not allowed !!"
