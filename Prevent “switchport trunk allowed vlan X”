@@ -1,0 +1,3 @@
+event manager applet BLOCK-TRUNK-VLAN-MISCONFIG
+ event cli pattern "switchport trunk allowed vlan [0-9*]" sync yes occurs 1
+ action 1 puts "!! This command is not allowed, you must use the 'ADD' or 'REMOVE' or 'NONE' keyword !!"
